@@ -1,10 +1,12 @@
-import React, { Cmomponent } from 'react'
+import React, { Component } from 'react'
 
 class ScoresUpdate extends Component {
     render() {
         return (
             <div>
-                This page will allw the user to update a score.
+                <p>
+                    This page will allow the user to update a score.
+                </p>
             </div>
         )
     }

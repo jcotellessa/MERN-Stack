@@ -1,4 +1,4 @@
-import React, { component, Component } from 'react'
+import React, { Component } from 'react'
 
 class ScoresInsert extends Component {
     render() {

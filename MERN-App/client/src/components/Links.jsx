@@ -25,12 +25,12 @@ class Links extends Component {
                 <Collapse>
                     <List>
                         <Item>
-                            <Link to="/" className="nav-link">
+                            <Link to="/score/list" className="nav-link">
                                 Scores
                            </Link>
                         </Item>
                         <Item>
-                            <Link to="/create" className="nav-link">
+                            <Link to="/score/create" className="nav-link">
                                 Create Scores
                            </Link>
                         </Item>

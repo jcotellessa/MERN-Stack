@@ -1,7 +1,8 @@
-import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom'
+import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import { NavBar } from '../components'
+import { ScoresList, ScoresUpdate, ScoresInsert } from "../pages"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -11,9 +12,9 @@ function App() {
     <Router>
       <NavBar />
       <Switch>
-        <Route path="/scores/list" exact component={ScoresList} />
-        <Route path="/scores/create " exact component={ScoresInsert} />
-        <Route path="/scores/update:id" exact component={ScoresUpdate} />
+        <Route path="/score/list" exact component={ScoresList} />
+        <Route path="/score/create" exact component={ScoresInsert} />
+        <Route path="/score/update/:id" exact component={ScoresUpdate} />
 
       </Switch>
     </Router>
