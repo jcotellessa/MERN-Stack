@@ -66,3 +66,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+IBM Cloudant service credentials
+
+{
+"apikey": "PyRt7o3Nw9dbEkm5pnDRkOCpRo4y9cT40skR6-6utLUJ",
+"host": "cf3098d3-0dc1-446c-a2a7-a9b1115f6b45-bluemix.cloudantnosqldb.appdomain.cloud",
+"iam_apikey_description": "Auto-generated for key b4274ebf-6b55-4ef6-bac6-afe175e2dc24",
+"iam_apikey_name": "Service credentials-1",
+"iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+"iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/7f030e221b4140de85a5f724939af220::serviceid:ServiceId-39eeb45c-5bce-4568-aedb-83e3208d6b6f",
+"password": "c9d8b0666e5c7e19e855fdc14a3c311c9d1b673a0cf2ebdb161e2b5586f8bdf5",
+"port": 443,
+"url": "https://cf3098d3-0dc1-446c-a2a7-a9b1115f6b45-bluemix:c9d8b0666e5c7e19e855fdc14a3c311c9d1b673a0cf2ebdb161e2b5586f8bdf5@cf3098d3-0dc1-446c-a2a7-a9b1115f6b45-bluemix.cloudantnosqldb.appdomain.cloud",
+"username": "cf3098d3-0dc1-446c-a2a7-a9b1115f6b45-bluemix"
+}
