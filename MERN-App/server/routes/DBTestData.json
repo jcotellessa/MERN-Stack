@@ -1,5 +1,9 @@
 {
+    "_id": {
+        "$oid": "5e682b74a791667eaeb40c32"
+    },
     "name": "Jerry",
-    "hole": "2",
-    "strokes": "4"
+    "hole": "6",
+    "strokes": "5",
+    "par": "4"
 }
