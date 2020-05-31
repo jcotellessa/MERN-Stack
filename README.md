@@ -12,5 +12,8 @@ and the second for the backend Server Applicaiton
 /Server is a NODE/Express application
 
 
-As the project evolves the source listings or packages will be hoisted with lerna and wb pack
+As the project evolves the source listings or packages will be hoisted with lerna and webpack
+
+The client will be separated into three build options a Browser Web, Apple DMG and Andriod 
+
 
