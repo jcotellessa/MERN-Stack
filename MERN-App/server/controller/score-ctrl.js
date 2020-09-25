@@ -2,7 +2,7 @@ const Score = require("../scores-model/score-model");
 
 createScore = (req, res) => {
   const body = req.body;
-  console.log(" start creating a score... ");
+  console.log(" start creating a score... ", req.body);
   if (!body) {
     return (
       res.status(400).json({
