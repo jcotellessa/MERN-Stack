@@ -99,7 +99,7 @@ class ScoresList extends Component {
       {
         Header: "",
         accessor: "",
-        Cell: function(props) {
+        Cell: function (props) {
           return (
             <span>
               <DeleteScore id={props.original._id} />
@@ -111,7 +111,7 @@ class ScoresList extends Component {
       {
         Header: "",
         accessor: "",
-        Cell: function(props) {
+        Cell: function (props) {
           return (
             <span>
               <UpdateScore id={props.original._id} />

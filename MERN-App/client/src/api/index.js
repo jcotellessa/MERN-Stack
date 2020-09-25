@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3000/api"
+  // baseURL: "http://localhost:3001/api"
+  baseURL: "http://192.168.0.106:3000/api"
 });
 
 export const insertScore = payload => api.post(`/score`, payload);
