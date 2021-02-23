@@ -10,7 +10,7 @@ const Wrapper = styled.a.attrs({
 class Logo extends Component {
     render() {
         return (
-            <Wrapper href="https://boston.com">
+            <Wrapper href="https://cnn.com">
                 <img src={logo} width="50" height="50" alt="samboros.com" />
             </Wrapper>
         )
