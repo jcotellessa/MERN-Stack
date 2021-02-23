@@ -20,7 +20,7 @@ class Links extends Component {
         return (
             <React.Fragment>
                 <Link to="/" className="navbar-brand">
-                    e-Link Golf League
+                    eLink Golf League
                 </Link>
                 <Collapse>
                     <List>
