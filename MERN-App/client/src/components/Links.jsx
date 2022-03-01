@@ -20,7 +20,7 @@ class Links extends Component {
         return (
             <React.Fragment>
                 <Link to="/" className="navbar-brand">
-                    My first MERN Application
+                    e-League @ Lakeville 
                 </Link>
                 <Collapse>
                     <List>
@@ -32,6 +32,11 @@ class Links extends Component {
                         <Item>
                             <Link to="/score/create" className="nav-link">
                                 Create Scores
+                           </Link>
+                        </Item>
+                        <Item>
+                            <Link to="/score/players" className="nav-link">
+                                Players
                            </Link>
                         </Item>
                     </List>
