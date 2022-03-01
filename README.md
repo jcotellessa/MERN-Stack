@@ -1,4 +1,4 @@
-# MERN-Stack
+# MERN-eLeague
 Basic Mongo-Express-React-NodeJS. Client server application 
 
 Master ReadMe of the Virtual Golf League client server application. 
