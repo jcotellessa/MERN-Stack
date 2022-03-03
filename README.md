@@ -1,4 +1,5 @@
-# MERN-Stack
+# MERN-eLeague
+Basic Mongo-Express-React-NodeJS. Client server application 
 
 Basic Mongo-Express-React-NodeJS. Client server application
 
@@ -11,13 +12,9 @@ and the second for the backend Server Applicaiton
 
 /Server is a NODE/Express application
 
-<<<<<<< HEAD
-As the project evolves the source listings or packages will be hosted with lerna and web pack
-=======
 
-As the project evolves the source listings or packages will be hoisted with lerna and webpack
+As the project evolves the source listings or packages will be hosted with lerna and webpack
 
 The client will be separated into three build options a Browser Web, Apple DMG and Andriod 
 
 
->>>>>>> 31ed5ac1a416d4b0f4b32b5b00537cc630e19611
