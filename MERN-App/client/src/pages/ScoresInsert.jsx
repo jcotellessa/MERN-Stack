@@ -66,7 +66,7 @@ class ScoresInsert extends Component {
     const payload = { name, hole, strokes, par };
 
     await api.insertScore(payload).then(res => {
-      window.alert("Score inserted succesfully! ");
+      window.alert("Score Added ");
       this.setState({
         name: "open",
         hole: "0",
