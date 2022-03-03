@@ -12,6 +12,9 @@ export const updateScoreById = (id, payload) => {
 };
 export const deleteScoreById = (id) => api.delete(`/score/${id}`);
 export const getScoreById = (id) => api.get(`/score/${id}`);
+export const getAllPlayers = () => api.get(`/players`);
+
+
 
 const apis = {
   insertScore,
@@ -19,6 +22,7 @@ const apis = {
   updateScoreById,
   deleteScoreById,
   getScoreById,
+  getAllPlayers,
 };
 
 export default apis;

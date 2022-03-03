@@ -81,3 +81,17 @@ IBM Cloudant service credentials
 "url": "https://cf3098d3-0dc1-446c-a2a7-a9b1115f6b45-bluemix:c9d8b0666e5c7e19e855fdc14a3c311c9d1b673a0cf2ebdb161e2b5586f8bdf5@cf3098d3-0dc1-446c-a2a7-a9b1115f6b45-bluemix.cloudantnosqldb.appdomain.cloud",
 "username": "cf3098d3-0dc1-446c-a2a7-a9b1115f6b45-bluemix"
 }
+
+Start the DB first mongod
+
+If there is a problem
+
+Make sure there is a data/db folde to store the data
+
+mkdir -p /System/Volumes/Data/data/db
+sudo chown -Rv <your_user_name> /System/Volumes/Data/data/db
+sudo mongod --dbpath /System/Volumes/Data/data/db
+
+Start the DB, thene the server then the Client
+
+Also there may be problems and you will need to lookup host reset
