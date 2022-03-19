@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import ReactTable from "react-table-6";
-import api from "../api";
-
-import styled from "styled-components";
+// import ReactTable from "react-table-6";
+// import api from "../api";
+// import styled from "styled-components";
 import "react-table-6/react-table.css";
 /* ******** /import apis from "../api";
 
@@ -15,14 +14,14 @@ const Update = styled.div`
   cursor: pointer;
 `;
 
-const Delete = styled.div`
+const DeletePlayer = styled.div`
   color: #ef9b0f;
   cursor: pointer;
 `;
 
-class UpdateScore extends Component {
-  updateUser = event => {
-    console.log("calling istself from within the  update score class");
+class UpdatePlayer extends Component {
+  updatePlayer = event => {
+    console.log("calling istself from within the  update player class");
     event.preventDefault();
     window.location.href = `/score/update/${this.props.id}`;
   };

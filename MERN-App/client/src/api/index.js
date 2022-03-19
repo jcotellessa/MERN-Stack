@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3001/api"
+  baseURL: "http://localhost:3000/api"
   //baseURL: "http://192.168.0.106:3001/api"
 });
 
@@ -14,6 +14,7 @@ export const deleteScoreById = (id) => api.delete(`/score/${id}`);
 export const getScoreById = (id) => api.get(`/score/${id}`);
 export const getAllPlayers = () => api.get(`/players`);
 
+//todo: breakup the players socres and league management.and
 
 
 const apis = {
