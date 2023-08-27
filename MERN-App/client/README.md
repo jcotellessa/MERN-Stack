@@ -86,7 +86,7 @@ Start the DB first mongod
 
 If there is a problem
 
-Make sure there is a data/db folde to store the data
+Make sure there is a data/db folder to store the data
 
 mkdir -p /System/Volumes/Data/data/db
 sudo chown -Rv <your_user_name> /System/Volumes/Data/data/db
